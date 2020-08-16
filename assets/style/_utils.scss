@@ -1,0 +1,21 @@
+$blue-color: #5eaebb;
+$bright-blue: #cde6ea;
+$orange-color: #ff642c;
+$text-color: #335077;
+$letter-space: 0.1rem;
+$shadow: -9px 16px 23px 0px rgba(0, 0, 0, 0.5);
+
+@mixin reservation-btn() {
+  background-color: $orange-color;
+  border: none;
+  padding: 1rem 3rem;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  &:hover {
+    background-color: #da7f7f;
+  }
+}

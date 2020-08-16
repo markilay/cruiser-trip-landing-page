@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "Futura Book";
+  src: url("../font/Futura\ Book\ Regular.otf") format("truetype");
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Futura Book", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+header,
+section {
+  position: relative;
+  min-height: 100vh;
+  height: 100%;
+}
+section {
+  padding: 5rem 5rem 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+
+  @media screen and(max-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+  }
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.social-icon {
+  color: #fff;
+  font-size: 1.5rem;
+}

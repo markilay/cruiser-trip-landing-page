@@ -1,0 +1,33 @@
+@media screen and(max-width: 2000px) {
+  .container {
+    max-width: 1500px;
+  }
+}
+
+@media screen and(max-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+
+  header {
+    .container {
+      nav {
+        font-size: 1rem;
+        ul {
+          padding: 0;
+        }
+        .social {
+          margin-left: 0;
+          font-size: 1rem;
+        }
+      }
+
+      .header-container {
+        margin-top: 5rem;
+      }
+    }
+    .next-trip-container {
+      padding: 3rem;
+    }
+  }
+}
